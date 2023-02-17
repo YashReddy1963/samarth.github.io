@@ -1,19 +1,20 @@
 *{
-    margine: 0;
+    margin: 0;
     padding: 0;
-    font-family: Arial, sans-serif; 
+    font-family: Arial, Helvetica, sans-serif;  
+    background-color: #2B3467;
 }
 
 .hero{
     position: relative;
     width: 100%;
     height: 100vh;
-    background: #eff4fd;
 }
 
 .logo{
+    margin-top: 3%;
+    margin-left: 8%;
     width: 20%;
-    height:20%;
 }
 
 nav{
@@ -22,7 +23,7 @@ nav{
     margin: auto;
     padding: 20px 0;
     align-items: centre;
-    justify-content: space-between;
+    justify-content: center;
 
 }
 
@@ -34,49 +35,25 @@ nav ul li{
 
 nav ul li a{
     text-decoration: none;
-    color: #000;
+    color: #BAD7E9;
     font-weight: bold;
 }
 
 nav ul li a:hover{
-    color: #E30B5C;
+    color: #EB455F;
 }
 
 .detel{
     margin-left: 8%;
     margin-top: 3%;
     margin-right: 8%;
-}
-
-.detel{
     font-size: 18px;
-    color: #212121;
+    color: #FCFFE7;
     margin-bottom: 20px;
+    font-size: 25px;
+    line-height: 29px;
 }
 
-span{
-    color: #00008B;
-}
-
-.detel p{
-    color: #555;
-    line-height: 22px;
-}
-.detel a{
-    background: #212121;
-    padding: 10px 18px;
-    text-decoration: none;
-    font-weight: bold;
-    color: #fff;
-    display: inline-block;
-    margin: 10px 0;
-    border-radius: 5px;
-}
-p{
-        text-align: justify;
-        text-justify: inter-word;
-        
-}
 
 .images img{
     height: 110px;

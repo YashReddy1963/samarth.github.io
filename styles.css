@@ -1,19 +1,20 @@
 *{
-    margine: 0;
+    margin: 0;
     padding: 0;
-    font-family: Arial, sans-serif; 
+    font-family: Arial, Helvetica, sans-serif; 
+    background-color: #2B3467;
 }
 
 .hero{
-    position: relative;
+    position: absolute;
     width: 100%;
     height: 100vh;
-    background: #eff4fd;
 }
 
 .logo{
+    margin-top: 3%;
+    margin-left: 8%;
     width: 20%;
-    height:20%;
 }
 
 nav{
@@ -22,62 +23,67 @@ nav{
     margin: auto;
     padding: 20px 0;
     align-items: centre;
-    justify-content: space-between;
-
+    justify-content: center;
 }
 
 nav ul li{
     display: inline-block;
     list-style: none;
-    margin: 10px 20px;;
+    margin: 10px 20px;
 }
 
 nav ul li a{
     text-decoration: none;
-    color: #000;
+    color: #BAD7E9;
     font-weight: bold;
 }
 
 nav ul li a:hover{
-    color: #E30B5C;
+    color: #EB455F;
 }
 
 .detel{
     margin-left: 8%;
-    margin-top: 12%;
+    margin-top: 2%;
 }
 
 .detel{
     font-size: 18px;
-    color: #212121;
+    color: #BAD7E9;
     margin-bottom: 20px;
 }
 
 span{
-    color: #00008B;
+    color: #EB455F;
+    font-weight: bold; 
+    display: inline-block;
+    margin: 10px 0;
+    border-radius: 5px;
 }
 
 .detel p{
-    color: #555;
-    line-height: 22px;
+    color: #FCFFE7;
+    line-height: 25px;
 }
 .detel a{
-    background: #212121;
+    background: #BAD7E9;
     padding: 10px 18px;
     text-decoration: none;
     font-weight: bold;
-    color: #fff;
+    color: #2B3467;
     display: inline-block;
     margin: 10px 0;
     border-radius: 5px;
 }
 
 .images{
-    width: 45%;
-    height: 80%;
+    width: 35%;
+    height: 70%;
     position: absolute;
     bottom: 0;
     right: 100px;
+    bottom: 5px;
+    margin-bottom: 5%;
 }
 
 .images img{
@@ -90,8 +96,6 @@ span{
 
 }
 
-
-
 .images:hover .shape{
     bottom: 40px;
 }
@@ -100,3 +104,11 @@ span{
     left:45%;
 }
 
+footer{
+    text-decoration: underline;
+    text-decoration-color: #EB455F;
+    text-decoration-thickness: 2px;
+    color: #BAD7E9;
+    font-size: 35px;
+    font-family: Arial, Helvetica, sans-serif;
+}

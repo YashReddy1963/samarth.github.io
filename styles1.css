@@ -12,9 +12,8 @@
 }
 
 .logo{
-    margin-top: 3%;
-    margin-left: 8%;
     width: 20%;
+    height:20%;
 }
 
 nav{
@@ -23,7 +22,7 @@ nav{
     margin: auto;
     padding: 20px 0;
     align-items: centre;
-    justify-content: center;
+    justify-content: space-between;
 
 }
 
@@ -33,14 +32,34 @@ nav ul li{
     margin: 10px 20px;;
 }
 
-nav ul li a{
+.underline{
     text-decoration: none;
     color: #BAD7E9;
-    font-weight: bold;
+    position: relative;
+    cursor: pointer;
+
 }
 
-nav ul li a:hover{
+.underline:after{
+    content: "";
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 0;
+    height: 2px;
     color: #EB455F;
+    background-color: #EB455F;
+    transition: width 0.4s ease-in-out;
+
+}
+
+.underline:hover:after {
+    width: 100%;
+}
+
+.underline:hover{
+    color: #EB455F;
+    transition: ease-in-out;
 }
 
 .detel{
@@ -56,9 +75,8 @@ nav ul li a:hover{
 
 
 .images img{
-    height: 110px;
-    width: 180px;
+    width: 15%;
     margin-left: 80%;
-    margin-top: 3%;
+    margin-top: 1%;
 
 }

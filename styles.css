@@ -12,9 +12,8 @@
 }
 
 .logo{
-    margin-top: 3%;
-    margin-left: 8%;
     width: 20%;
+    height:20%;
 }
 
 nav{
@@ -23,7 +22,7 @@ nav{
     margin: auto;
     padding: 20px 0;
     align-items: centre;
-    justify-content: center;
+    justify-content: space-between;
 }
 
 nav ul li{
@@ -32,27 +31,45 @@ nav ul li{
     margin: 10px 20px;
 }
 
-nav ul li a{
+.underline{
     text-decoration: none;
     color: #BAD7E9;
-    font-weight: bold;
+    position: relative;
+    cursor: pointer;
+
 }
 
-nav ul li a:hover{
+.underline:after{
+    content: "";
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 0;
+    height: 2px;
     color: #EB455F;
+    background-color: #EB455F;
+    transition: width 0.4s ease-in-out;
+
+}
+
+.underline:hover:after {
+    width: 100%;
+}
+
+.underline:hover{
+    color: #EB455F;
+    transition: ease-in-out;
 }
 
 .detel{
     margin-left: 8%;
     margin-top: 2%;
-}
-
-.detel{
-    font-size: 18px;
     color: #BAD7E9;
-    margin-bottom: 20px;
 }
 
+h1{
+    font-size: 65px;
+}
 span{
     color: #EB455F;
     font-weight: bold; 
@@ -61,9 +78,10 @@ span{
     border-radius: 5px;
 }
 
-.detel p{
+p{
     color: #FCFFE7;
-    line-height: 25px;
+    font-size: 25px;
+    margin-bottom: 2%;
 }
 .detel a{
     background: #BAD7E9;
@@ -71,8 +89,6 @@ span{
     text-decoration: none;
     font-weight: bold;
     color: #2B3467;
-    display: inline-block;
-    margin: 10px 0;
     border-radius: 5px;
 }
 
@@ -83,7 +99,7 @@ span{
     bottom: 0;
     right: 100px;
     bottom: 5px;
-    margin-bottom: 5%;
+    margin-bottom: 3%;
 }
 
 .images img{
@@ -96,6 +112,14 @@ span{
 
 }
 
+.boy{
+    border-radius: 51%;
+}
+
+.shape{
+    border-radius: 51%;
+}
+
 .images:hover .shape{
     bottom: 40px;
 }
@@ -106,9 +130,10 @@ span{
 
 footer{
     text-decoration: underline;
-    text-decoration-color: #EB455F;
+    text-decoration-color: #BAD7E9;
     text-decoration-thickness: 2px;
     color: #BAD7E9;
     font-size: 35px;
     font-family: Arial, Helvetica, sans-serif;
+    margin-top: 4.5%;
 }

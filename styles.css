@@ -63,7 +63,7 @@ nav ul li{
 
 .detel{
     margin-left: 8%;
-    margin-top: 2%;
+    margin-top: 6%;
     color: #BAD7E9;
 }
 
@@ -105,28 +105,11 @@ p{
 .images img{
     height: 105%;
     position: absolute;
-    left: 50%;
+    left: 8%;
     bottom: 0;
-    transform: translateX(-50%);
-    transition: bottom 1s, left 1s;
-
+    border-radius: 50%;
 }
 
-.boy{
-    border-radius: 51%;
-}
-
-.shape{
-    border-radius: 51%;
-}
-
-.images:hover .shape{
-    bottom: 40px;
-}
-
-.image:hover .boy{
-    left:45%;
-}
 
 footer{
     text-decoration: underline;
@@ -135,5 +118,5 @@ footer{
     color: #BAD7E9;
     font-size: 35px;
     font-family: Arial, Helvetica, sans-serif;
-    margin-top: 4.5%;
+    margin-top: 11.5%;
 }

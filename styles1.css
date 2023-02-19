@@ -100,4 +100,8 @@ nav ul li{
         font-size: 25px;
         line-height: 29px;
     }
+    
+    .shape{
+        margin-left: 3%;
+    }
 }

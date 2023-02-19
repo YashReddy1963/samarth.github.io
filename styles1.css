@@ -1,7 +1,7 @@
 *{
     margin: 0;
     padding: 0;
-    font-family: Arial, Helvetica, sans-serif;  
+    font-family: "Times New Roman", Times, serif;  
     background-color: #2B3467;
 }
 
@@ -71,4 +71,16 @@ nav ul li{
     margin-bottom: 20px;
     font-size: 25px;
     line-height: 29px;
+}
+
+p{
+    text-align: justify;
+    text-justify: inter-word;
+  }
+
+  .images img{
+    height: 110px;
+    width: 180px;
+    margin-left: 78%;
+    margin-top: 3%
 }

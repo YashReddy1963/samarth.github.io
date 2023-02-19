@@ -97,7 +97,7 @@ p{
     height: 70%;
     position: absolute;
     bottom: 0;
-    right: 105px;
+    right: 100px;
     bottom: 5px;
     margin-bottom: 3%;
 }
@@ -119,4 +119,45 @@ footer{
     font-size: 35px;
     font-family: Arial, Helvetica, sans-serif;
     margin-top: 11.5%;
+}
+
+@media screen and (max-width: 320px){
+    .hero{
+        position: relative;
+    }
+
+    .logo{
+        width: 45%;
+        height:45%;
+    }
+    
+
+    nav{
+    display: flex;
+    width: 90%;
+    justify-content: space-between;
+    }
+
+    nav ul li{
+        display: inline-block;
+        list-style: none;
+        margin-left: 35%;
+    }
+    
+    h1{
+        font-size: 55px;
+    }
+    span{
+        font-size: 55px;
+        margin-bottom: 2%;
+    }
+
+    .images{
+        width: 15%;
+        height: 45%;
+        right: 0;
+        left: 0;
+        position: relative;
+    }
+
 }

@@ -66,21 +66,38 @@ nav ul li{
     margin-left: 8%;
     margin-top: 3%;
     margin-right: 8%;
-    font-size: 18px;
     color: #FCFFE7;
     margin-bottom: 20px;
     font-size: 25px;
     line-height: 29px;
 }
 
-p{
-    text-align: justify;
-    text-justify: inter-word;
-  }
+@media screen and (max-width: 320px){
+    .hero{
+        position: relative;
+    }
 
-  .images img{
-    height: 110px;
-    width: 180px;
-    margin-left: 78%;
-    margin-top: 3%
+    .logo{
+        width: 45%;
+        height:45%;
+    }
+    
+
+    nav{
+    display: flex;
+    width: 90%;
+    justify-content: space-between;
+    }
+
+    nav ul li{
+        display: inline-block;
+        list-style: none;
+        margin-left: 35%;
+    }
+    
+    .detel{
+        margin: 3% 8% 5% 8%;
+        font-size: 25px;
+        line-height: 29px;
+    }
 }
